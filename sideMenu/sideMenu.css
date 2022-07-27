@@ -1,0 +1,32 @@
+.sideMenu{
+
+
+    position: fixed;
+    background-color: rgb(230, 227, 223);
+    z-index: 900;
+    height:100%;
+width:40%;
+display:flex;
+flex-direction: column;
+font-family: 'Julius Sans One';
+text-align: center;
+align-items: center;
+padding-top: 5%;
+    
+    }
+
+    .hiddenSideMenu{
+      
+        display: none;
+    }
+   
+    .sideMenuOverlay{
+
+position: fixed;
+display: block;
+width:100%;
+height:100%;
+z-index: 10000;
+background-color: rgba(31, 28, 28, 0.734);
+
+    }

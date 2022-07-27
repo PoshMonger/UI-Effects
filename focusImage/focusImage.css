@@ -1,0 +1,29 @@
+.image-selected{
+
+width:250px;
+height:250px;
+margin:auto;
+}
+
+.image-overlay{
+
+height:100%;
+width:100%;
+    position:fixed;
+    z-index: 100000;
+    background-color: rgba(0, 0, 0, 0.854);
+    display: flex;
+  
+}
+
+.close{
+    position:absolute;
+    right:10px;
+    top:10px;
+    background-color: darkred;
+height:20px;
+width: 20px;
+    color:white;
+    text-align: center;
+
+}
